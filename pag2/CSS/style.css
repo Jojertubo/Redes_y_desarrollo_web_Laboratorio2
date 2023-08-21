@@ -99,7 +99,26 @@ hr{
     width: 40%;
     bottom: 60px;
 }
-.boton-container{
+
+.list-style{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+header{
+    background-color: rgba(96, 123, 151, 0.95);
+    border: 1px solid #ee5f33;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
+}
+a:hover{
+    background-color: rgba(57, 74, 92, 0.95);
+}
+#centerText{
+    text-align: center;
 }
